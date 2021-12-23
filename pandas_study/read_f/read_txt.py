@@ -10,7 +10,7 @@ import pandas as pd
 # print(grades)
 
 df = pd.read_csv(
-    './wheather.txt',
+    '../wheather.txt',
     sep='\t',
     header=None,
     names=['data', 'high', 'low', 'weather', 'wind', 'quality']
@@ -53,10 +53,22 @@ print('#' * 30)
 # 条件表达式进行查询
 print(df.loc[df['low'] < 5, 'high':'low'])
 print('#' * 30)
-print(df.loc[df['low']<5,:])
+print(df.loc[df['low'] < 5, :])
 print('#' * 30)
-print(df['low']<3)
+print(df['low'] < 3)
 print('#' * 30)
 
 # 复杂查询
-print(df.loc[df['high'] <= 28 & df['low'] >= 10])
+print(df.loc[(df['high'] <= 28) & (df['low'] >= 15) & (df['weather'] == '阴')])
+print('#' * 30)
+
+# 调用函数查询
+print(df.loc[lambda df: (df['high'] <= 30) & (df['low'] >= 15), :])
+print('#' * 30)
+
+
+# 编写函数查询
+def query_my_data(df):
+    return df.index.str.startswith('2020-09') & df['low'] == 17
+
+print(df.loc[query_my_data, :])
