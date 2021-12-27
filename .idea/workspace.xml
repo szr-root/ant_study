@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da707612-05db-4395-b63b-bf72da1364c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="da707612-05db-4395-b63b-bf72da1364c2" name="Changes" comment="12-23 日学习">
+      <change afterPath="$PROJECT_DIR$/pandas_study/data_operation/nadata_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas_study/data_operation/student2.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas_study/read_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_study/read_f/read_txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_study/add_data_col/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_study/data_operation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_study/add_data_col/add_datacol.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_study/data_operation/add_datacol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_study/add_data_col/nadata_method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_study/add_data_col/student2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_study/add_data_col/天气处理后数据.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_study/data_operation/天气处理后数据.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_study/data_sum/data_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_study/data_sum/data_sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +62,13 @@
       <recent name="$PROJECT_DIR$/pandas_study" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basket" />
       <recent name="$PROJECT_DIR$/pandas_study/add_data_col" />
       <recent name="$PROJECT_DIR$/pandas_study/read_f" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nadata_method">
-    <configuration name="add_datacol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.char_method">
+    <configuration name="F_pandas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +81,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_study/add_data_col/add_datacol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_study/F_pandas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="char_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,12 +98,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_study/data_sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_study/data_operation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_study/data_sum/data_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_study/data_operation/char_method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="data_clean" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,12 +120,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/christams" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/christams/login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basket/data_clean.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nadata_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="os_dr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,12 +164,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_study/add_data_col" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OS_dir" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_study/add_data_col/nadata_method.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OS_dir/os_dr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_txt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="spider_basket" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,12 +186,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/movie_spider" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_study/read_f/read_txt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basket/spider_basket.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.nadata_method" />
-        <item itemvalue="Python.data_sum" />
-        <item itemvalue="Python.add_datacol" />
-        <item itemvalue="Python.read_txt" />
-        <item itemvalue="Python.login" />
+        <item itemvalue="Python.char_method" />
+        <item itemvalue="Python.os_dr" />
+        <item itemvalue="Python.F_pandas" />
+        <item itemvalue="Python.data_clean" />
+        <item itemvalue="Python.spider_basket" />
       </list>
     </recent_temporary>
   </component>
@@ -215,8 +222,17 @@
       <workItem from="1639538553134" duration="861000" />
       <workItem from="1639542042894" duration="27940000" />
       <workItem from="1639732778935" duration="10214000" />
-      <workItem from="1639989036556" duration="17340000" />
+      <workItem from="1639989036556" duration="21265000" />
+      <workItem from="1640316979287" duration="17722000" />
     </task>
+    <task id="LOCAL-00001" summary="12-23 日学习">
+      <created>1640245938409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640245938410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +248,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12-23 日学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="12-23 日学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,7 +270,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProject1$data_clean.coverage" NAME="data_clean Coverage Results" MODIFIED="1640338004540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basket" />
+    <SUITE FILE_PATH="coverage/pythonProject1$sort_data.coverage" NAME="sort_data Coverage Results" MODIFIED="1640330208139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_study/data_operation" />
+    <SUITE FILE_PATH="coverage/pythonProject1$spider_basket.coverage" NAME="spider_basket Coverage Results" MODIFIED="1640334348137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/movie_spider" />
+    <SUITE FILE_PATH="coverage/pythonProject1$char_method.coverage" NAME="char_method Coverage Results" MODIFIED="1640594350143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_study/data_operation" />
     <SUITE FILE_PATH="coverage/pythonProject1$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1639554792764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mutiproc_test" />
+    <SUITE FILE_PATH="coverage/pythonProject1$os_dr.coverage" NAME="os_dr Coverage Results" MODIFIED="1640587126402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OS_dir" />
+    <SUITE FILE_PATH="coverage/pythonProject1$F_pandas.coverage" NAME="F_pandas Coverage Results" MODIFIED="1640569183047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_study" />
     <SUITE FILE_PATH="coverage/pythonProject1$data_sum.coverage" NAME="data_sum Coverage Results" MODIFIED="1640243768333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_study/data_sum" />
     <SUITE FILE_PATH="coverage/pythonProject1$send_feishu.coverage" NAME="send_feishu Coverage Results" MODIFIED="1639708686910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/send_feishu" />
     <SUITE FILE_PATH="coverage/pythonProject1$blog_spider.coverage" NAME="blog_spider Coverage Results" MODIFIED="1639557618423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blog_test" />
@@ -261,7 +287,8 @@
     <SUITE FILE_PATH="coverage/pythonProject1$login.coverage" NAME="login Coverage Results" MODIFIED="1639747694575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/christams" />
     <SUITE FILE_PATH="coverage/pythonProject1$add_datacol.coverage" NAME="add_datacol Coverage Results" MODIFIED="1640160457990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_study" />
     <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1639538586171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject1$.coverage" NAME="nadata_method Coverage Results" MODIFIED="1640245779752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_study/add_data_col" />
+    <SUITE FILE_PATH="coverage/pythonProject1$.coverage" NAME="nadata_method Coverage Results" MODIFIED="1640315504269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_study/add_data_col" />
+    <SUITE FILE_PATH="coverage/pythonProject1$nadata_method.coverage" NAME="nadata_method Coverage Results" MODIFIED="1640317215771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_study/add_data_col" />
     <SUITE FILE_PATH="coverage/pythonProject1$read_txt.coverage" NAME="read_txt Coverage Results" MODIFIED="1640158102452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_study" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel('../add_data_col/天气处理后数据.xlsx')
+df = pd.read_excel('../data_operation/天气处理后数据.xlsx')
 print(df.head())
 df.set_index('data', inplace=True)
 print(df.head())
